@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    max-width:900px;
+    max-width:1000px;
     margin:auto;
     padding:40px 20px;
     text-align:center;
@@ -34,14 +34,35 @@ h1{
     background:white;
     color:#333;
     padding:30px;
-    margin-top:40px;
+    margin-top:30px;
     border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:left;
+}
+
+.card h2{
+    text-align:center;
 }
 
 .app{
-    margin:15px 0;
-    font-size:18px;
+    margin:20px 0;
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+.app:last-child{
+    border-bottom:none;
+}
+
+.app-title{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.app-desc{
+    font-size:15px;
+    margin:8px 0;
+    color:#555;
 }
 
 .footer{
@@ -52,12 +73,12 @@ h1{
 
 .button{
     display:inline-block;
-    padding:12px 25px;
+    padding:10px 20px;
     background:#4CAF50;
     color:white;
     text-decoration:none;
     border-radius:6px;
-    margin-top:15px;
+    margin-top:10px;
 }
 
 .button:hover{
@@ -78,12 +99,27 @@ h1{
 
 <h2>Our Apps</h2>
 
-<div class="app">📖 TextTales – Chat Stories</div>
-<p>Read addictive chat stories in horror, romance, mystery and confession formats.</p>
+<!-- TextTales App -->
+<div class="app">
+    <div class="app-title">📖 TextTales – Chat Stories</div>
+    <div class="app-desc">
+        Read addictive chat-based stories across horror, romance, mystery, and confession genres.
+    </div>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.texttales.app" target="_blank">
+        View on Google Play
+    </a>
+</div>
 
-<a class="button" href="https://play.google.com/store/apps/details?id=com.texttales.app">
-View on Google Play
-</a>
+<!-- Bihar 10th Exam Prep App -->
+<div class="app">
+    <div class="app-title">📚 Bihar 10th Exam Prep</div>
+    <div class="app-desc">
+        Complete preparation app for Bihar Board Class 10 students with Notes, MCQs, Tests, and Previous Year Questions.
+    </div>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.technovikash.boardexamprep" target="_blank">
+        View on Google Play
+    </a>
+</div>
 
 </div>
 
@@ -91,9 +127,9 @@ View on Google Play
 
 <h2>Developer Information</h2>
 
-<p>Developer: Vikash Kumar Verma</p>
-<p>Email: er.vikashkumarverma@gmail.com</p>
-<p>Location: India</p>
+<p><strong>Developer:</strong> Vikash Kumar Verma</p>
+<p><strong>Email:</strong> er.vikashkumarverma@gmail.com</p>
+<p><strong>Location:</strong> India</p>
 
 </div>
 
